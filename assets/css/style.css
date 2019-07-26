@@ -1,19 +1,32 @@
+/* Imported font: font-family: 'Darker Grotesque', sans-serif;
+ */
+
 body {
     background-image: url(../images/ep_naturalblack.png);
     background-repeat: repeat;
+    font-family: 'Darker Grotesque', sans-serif;
 }
+
+/* Navbar */
 
 #navbar {
     background-color: white;
     padding: 0px 10px 10px 10px;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 40px 10px;
     border-radius: 0px 0px 25px 25px;
 }
 
 nav .brand-logo, nav ul a, nav a {
     color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
 
+.brand-logo {
+    font-size: 30px !important;
+}
+
+/* Jumbotron */
 
 #images {
     position: relative;
@@ -74,5 +87,67 @@ nav .brand-logo, nav ul a, nav a {
 }
 
 a:hover {
-    border: 2px darkslateblue solid;
+    transition: 500ms;
+    opacity: 0.5;
+    color: gray;
+}
+
+a:active {
+    opacity: 0.2;
+}
+
+/* About Me Section */
+
+#aboutMe {
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 5px 10px;
+    margin: 40px 0 40px 0;
+}
+
+#heading {
+    font-size: 50px;
+}
+
+.mainText {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: gray;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Portfolio page */
+
+#hangman, #crystal, #trivia, #giftastic, #train, #fridge {
+    width: 100%;
+    height: auto;
+} 
+
+.card .card-title, .cardLink, .card .card-content p, .extraInfo {
+    font-weight: bold;
+}
+
+.card .card-title {
+    font-size: 28px;
+}
+
+.cardLink {
+    font-size: 20px;
+}
+
+.card .card-content p, .extraInfo {
+    font-size: 18px;
 }
