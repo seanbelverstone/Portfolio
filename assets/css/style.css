@@ -36,7 +36,8 @@ nav .brand-logo, nav ul a, nav a {
     margin-top: 20px;
     width: 100%;
     height: auto;
-    border: 3px white double;
+    /* border: 3px white solid; */
+    box-shadow: 5px 10px;
 }
 
 #profile {
@@ -150,4 +151,13 @@ footer {
 
 .card .card-content p, .extraInfo {
     font-size: 18px;
+}
+
+/* Contact page */
+
+#contactForm {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 40px 0 40px 0;
 }
