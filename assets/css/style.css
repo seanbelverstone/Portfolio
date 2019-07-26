@@ -1,0 +1,39 @@
+body {
+    background-image: url(../images/ep_naturalblack.png);
+    background-repeat: repeat;
+}
+
+#navbar {
+    background-color: white;
+    padding: 0px 10px 10px 10px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+nav .brand-logo {
+    color: black;
+}
+
+nav ul a {
+    color: black;
+}
+
+#images {
+    position: relative;
+}
+
+#mainImage {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+#profile {
+    width: 12%;
+    height: auto;
+    position: absolute;
+    left: 45%;
+    bottom: 26%;
+    border: 5px solid black;
+    border-radius: 50px;
+}
