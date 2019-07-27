@@ -36,7 +36,6 @@ nav .brand-logo, nav ul a, nav a {
     margin-top: 20px;
     width: 100%;
     height: auto;
-    /* border: 3px white solid; */
     box-shadow: 5px 10px;
 }
 
@@ -115,6 +114,7 @@ a:active {
 .mainText {
     font-size: 18px;
     font-weight: bold;
+    padding: 10px 0 10px 0;
 }
 
 /* Footer */
