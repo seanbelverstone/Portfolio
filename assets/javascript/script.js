@@ -57,9 +57,9 @@ var message;
 
       $(this).attr('href', 'mailto:' + email +
       '?subject=' + details.join(" ") + '&body=' + message);    
-      // console.log(email, subject, emailBody, message);
-
-
-
-  };
-});
+    }
+    //clears the form after submission
+    $("input").val("");
+    $("textarea").val("");
+    details = [];
+  });

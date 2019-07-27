@@ -120,7 +120,6 @@ a:active {
 /* Footer */
 
 footer {
-    text-align: center;
     color: white;
     background-color: gray;
     position: fixed !important;
@@ -129,6 +128,15 @@ footer {
     width: 100%;
     padding: 10px;
     z-index: 99;
+}
+
+#copyright {
+    float: left;
+}
+
+#account, #emailAddress, #phone, #tel {
+    float: right;
+    padding-right: 10px;
 }
 
 /* Portfolio page */
@@ -162,4 +170,9 @@ footer {
     border-radius: 20px;
     padding: 10px;
     margin: 40px 0 40px 0;
+}
+
+.input-field .prefix ~ label {
+    font-size: 18px;
+    color: gray
 }
