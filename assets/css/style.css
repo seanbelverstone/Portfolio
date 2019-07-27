@@ -155,11 +155,16 @@ footer {
 }
 
 .cardLink {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .card .card-content p, .extraInfo {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.extraInfo {
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 /* Contact page */
