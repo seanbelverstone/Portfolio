@@ -123,11 +123,12 @@ footer {
     text-align: center;
     color: white;
     background-color: gray;
-    position: fixed;
+    position: fixed !important;
     left: 0%;
     bottom: 0%;
     width: 100%;
     padding: 10px;
+    z-index: 99;
 }
 
 /* Portfolio page */
@@ -156,6 +157,7 @@ footer {
 /* Contact page */
 
 #contactForm {
+    color: black;
     background-color: white;
     border-radius: 20px;
     padding: 10px;
