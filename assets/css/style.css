@@ -197,7 +197,8 @@ footer {
 
     #profile {
         left: 20%;
-        bottom: 20%;
+        bottom: 3%;
+        width: 18%;
     }
 
     #name {
@@ -206,14 +207,14 @@ footer {
         font-size: 18px;
     }
     #github {
-        left: 64%;
+        left: 61%;
     }
 
     #linkedin {
         left: 72%;
     }
     #cv {
-        left: 80%;
+        left: 83%;
     }
     #github, #linkedin, #cv {
         bottom: 35%;
@@ -221,9 +222,10 @@ footer {
 
     /* Footer */
 
-    #account, #emailAddress, #phone, #tel {
-        float: left;
+    #copyright, #account, #emailAddress, #phone, #tel {
+        float: none;
         margin-left: 20px;
+        text-align: center;
     }
 
     #account, #phone {
@@ -279,7 +281,7 @@ footer {
     /* Footer */
 
     #account, #emailAddress, #phone, #tel {
-        float: left;
+        float: right;
         margin-left: 20px;
     }
 
@@ -332,7 +334,7 @@ footer {
     /* Footer */
 
     #account, #emailAddress, #phone, #tel {
-        float: left;
+        float: right;
         margin-left: 20px;
     }
 
@@ -372,13 +374,13 @@ footer {
         bottom: 8%;
     }
     #github {
-        left: 47%;
+        left: 46%;
     }
     #linkedin {
         left: 50%;
     }
     #cv {
-        left: 53%;
+        left: 54%;
     }
     #github, #linkedin, #cv {
         bottom: 20%;
@@ -416,6 +418,6 @@ footer {
     #name {
         font-size: 30px;
         bottom: 8%;
-
+        left: 46%;
     }
 }
