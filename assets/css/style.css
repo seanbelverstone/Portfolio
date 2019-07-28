@@ -23,7 +23,7 @@ nav .brand-logo, nav ul a, nav a {
 }
 
 .brand-logo {
-    font-size: 30px !important;
+    font-size: 30px;
 }
 
 /* Jumbotron */
@@ -201,8 +201,9 @@ footer {
     }
 
     #name {
-        left: 65%;
-        font-size: 20px;
+        left: 62%;
+        bottom: 15%;
+        font-size: 18px;
     }
     #github {
         left: 64%;
@@ -219,9 +220,28 @@ footer {
     }
 
     /* Footer */
-    
+
     #account, #emailAddress, #phone, #tel {
-        align-content: right;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #account, #phone {
+        display: none;
+    }
+
+    /* Portfolio page */
+
+    .card .card-title {
+        font-size: 28px;
+    }
+    
+    .cardLink {
+        font-size: 22px;
+    }
+    
+    .card .card-content p, .extraInfo {
+        font-size: 20px;
     }
 
   }  
@@ -239,6 +259,9 @@ footer {
 
     #name {
         left: 65%;
+        bottom: 20%;
+        font-size: 24px;
+
     }
     #github {
         left: 64%;
@@ -253,6 +276,31 @@ footer {
     #github, #linkedin, #cv {
         bottom: 35%;
     }
+    /* Footer */
+
+    #account, #emailAddress, #phone, #tel {
+        float: left;
+        margin-left: 20px;
+    }
+
+    #account, #phone {
+        display: none;
+    }
+
+    /* Portfolio page */
+
+    .card .card-title {
+        font-size: 24px;
+    }
+    
+    .cardLink {
+        font-size: 18px;
+    }
+    
+    .card .card-content p, .extraInfo {
+        font-size: 16px;
+    }
+
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -264,6 +312,8 @@ footer {
     
     #name  {
         left: 65%;
+        font-size: 26px;
+        bottom: 20%;
     }
     #github {
         left: 64%;
@@ -277,6 +327,31 @@ footer {
     }
     #github, #linkedin, #cv {
         bottom: 35%;
+    }
+
+    /* Footer */
+
+    #account, #emailAddress, #phone, #tel {
+        float: left;
+        margin-left: 20px;
+    }
+
+    #account, #phone {
+        display: none;
+    }
+
+    /* Portfolio page */
+
+    .card .card-title {
+        font-size: 26px;
+    }
+    
+    .cardLink {
+        font-size: 20px;
+    }
+    
+    .card .card-content p, .extraInfo {
+        font-size: 18px;
     }
 
 } 
@@ -289,10 +364,12 @@ footer {
     }
     
     nav .brand-logo {
-        font-size: 28px !important;
+        font-size: 28px;
     }
     #name  {
         left: 44%;
+        font-size: 28px;
+        bottom: 8%;
     }
     #github {
         left: 47%;
@@ -306,11 +383,39 @@ footer {
     #github, #linkedin, #cv {
         bottom: 20%;
     }
+    /* Footer */
+
+    #account, #emailAddress, #phone, #tel {
+        float: right;
+        display: block;
+        margin-left: 5px;
+    }
+
+    /* Portfolio page */
+
+    .card .card-title {
+        font-size: 28px;
+    }
+    
+    .cardLink {
+        font-size: 22px;
+    }
+    
+    .card .card-content p, .extraInfo {
+        font-size: 20px;
+    }
+
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     nav .brand-logo {
-        font-size: 32px !important;
+        font-size: 32px;
+    }
+
+    #name {
+        font-size: 30px;
+        bottom: 8%;
+
     }
 }
