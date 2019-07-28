@@ -181,3 +181,136 @@ footer {
     font-size: 18px;
     color: gray
 }
+
+
+/* =================================================================== */
+
+/* Media Queries for Mobile Responsiveness */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Homepage */
+    
+    nav .brand-logo {
+        font-size: 16px;
+    }
+
+    #profile {
+        left: 20%;
+        bottom: 20%;
+    }
+
+    #name {
+        left: 65%;
+        font-size: 20px;
+    }
+    #github {
+        left: 64%;
+    }
+
+    #linkedin {
+        left: 72%;
+    }
+    #cv {
+        left: 80%;
+    }
+    #github, #linkedin, #cv {
+        bottom: 35%;
+    }
+
+    /* Footer */
+    
+    #account, #emailAddress, #phone, #tel {
+        align-content: right;
+    }
+
+  }  
+
+/* Small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    nav .brand-logo {
+        font-size: 16px;
+    }
+
+    #profile {
+        left: 20%;
+        bottom: 20%;
+    }
+
+    #name {
+        left: 65%;
+    }
+    #github {
+        left: 64%;
+    }
+
+    #linkedin {
+        left: 72%;
+    }
+    #cv {
+        left: 80%;
+    }
+    #github, #linkedin, #cv {
+        bottom: 35%;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #profile {
+        left: 20%;
+        bottom: 20%;
+    }
+    
+    #name  {
+        left: 65%;
+    }
+    #github {
+        left: 64%;
+    }
+
+    #linkedin {
+        left: 72%;
+    }
+    #cv {
+        left: 80%;
+    }
+    #github, #linkedin, #cv {
+        bottom: 35%;
+    }
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #profile {
+        left: 45%;
+        bottom: 33%;
+    }
+    
+    nav .brand-logo {
+        font-size: 28px !important;
+    }
+    #name  {
+        left: 44%;
+    }
+    #github {
+        left: 47%;
+    }
+    #linkedin {
+        left: 50%;
+    }
+    #cv {
+        left: 53%;
+    }
+    #github, #linkedin, #cv {
+        bottom: 20%;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    nav .brand-logo {
+        font-size: 32px !important;
+    }
+}
