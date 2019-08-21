@@ -140,8 +140,7 @@ footer {
 }
 
 /* Portfolio page */
-
-#hangman, #crystal, #trivia, #giftastic, #train, #fridge {
+#hangman, #crystal, #trivia, #giftastic, #train, #fridge, #liri, #bamazon {
     width: 100%;
     height: auto;
 } 
